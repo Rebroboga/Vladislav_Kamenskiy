@@ -326,6 +326,7 @@ ul {
     display: block;
     margin-bottom: 30px;
     position: relative;
+    width: 240px;
   }
   .hero__text {
     display: block;
@@ -336,12 +337,16 @@ ul {
   .hero__right {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
   .photo-round {
     display: inline-block;
     position: absolute;
-    top: -38px;
-    right: 33px;
+    top: -12%;
+    right: -25%;
     z-index: -1;
+  }
+  .hero__images {
+    position: relative;
   }
 }
